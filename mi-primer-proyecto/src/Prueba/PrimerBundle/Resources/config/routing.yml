@@ -1,0 +1,3 @@
+prueba_primer_homepage:
+    path:     /primer
+    defaults: { _controller:PruebaPrimerBundle:Default:index }

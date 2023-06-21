@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Banquito{% endblock %}</title>
+        {% block stylesheets %}
+            <link type="text/css" rel="stylesheet" href="{{ asset('css/materialize.min.css') }}">
+            <link type="text/css" rel="stylesheet" href="{{ asset('css/all.min.css') }}">
+            <link type="text/css" rel="stylesheet" href="{{ asset('css/dataTable.min.css') }}">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        {% endblock %}
+    </head>
+    <body>
+
+        {% block header %}
+            <nav>
+                <div class="nav-wrapper teal deep-orange">
+                    <a href="#!" class="brand-logo">
+                        <i class="fa-solid fa-piggy-bank fa-bounce"></i>
+                        Banquito</a>
+
+                </div>
+            </nav>
+        {% endblock %}
+        {% block body %}
+
+                    {% block formulario %}
+                    {% endblock %}
+
+
+        {% endblock %}
+
+        {% block footer %}
+
+        {% endblock %}
+        {% block javascripts %}
+            <script src={{ asset('js/jquery-3.7.0.js') }}></script>
+            <script src={{ asset('js/dataTable.min.js') }}></script>
+            <script src={{ asset('js/materialize.js') }}></script>
+            <script src={{ asset('js/all.min.js') }}></script>
+        {% endblock %}
+    </body>
+</html>
+
