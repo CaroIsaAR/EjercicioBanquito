@@ -11,7 +11,7 @@ class PruebaModel{
     }
 
     public function getCliente(){
-        $qry = '';
+        $qry = ' ';
         $qry .= 'SELECT ';
         $qry .= '"idcte",';
         $qry .= '"nombre",';
@@ -26,8 +26,9 @@ class PruebaModel{
         return $result;
     }
 
-    public function getMovimientos(){
-        $cuenta='1955204720564937';
+    public function getMovimientos($data){
+
+        $cuenta= $data['cuenta'];
 
         $qry=' ';
         $qry.='SELECT ';
@@ -41,18 +42,24 @@ class PruebaModel{
         return $result;
     }
 
-    /*public function getSaldo(){
-        $cuenta='1955204720564937';
-        $qry='';
-        $qry.='SELECT ';
-        $qry.='"NoCuenta,"';
-        $qry='"SaldoTotal" ';
-        $qry='FROM "vw_SaldoTotal" ';
-        $qry.='WHERE "NoCuenta"=\''+$cuenta+'\'';
+    public function setMovimientos($datos){
+        $tipomov = $datos['tipomov'];
+        $importe = $datos['importe'];
+        $cuenta= $datos['cuenta'];
+        $idcte= $datos['idcte'];
+        $idsuc=$datos['idsuc'];
+
+        $qry=' ';
+        $qry.='INSERT ';
+        $qry.='INTO movimiento ';
+        $qry.='("tipomov", "nocuenta","idcte","idsuc","fecha","importe")';
+        $qry.=' VALUES(';
+        $qry.="'$tipomov','$cuenta',$idcte,$idsuc,now(),$importe) returning *";
 
         $result = $this->SQLModel->executeQuery($qry);
 
         return $result;
-    }*/
+    }
+
 }
 

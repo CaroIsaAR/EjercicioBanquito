@@ -1,0 +1,245 @@
+<?php
+
+/* PruebaPrimerBundle:Default:index.html.twig */
+class __TwigTemplate_fcd932eb310839ea05d3587d2392f12f608d0454f346a02ce2dad7e5891a69c0 extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        // line 1
+        $this->parent = $this->loadTemplate("base.html.twig", "PruebaPrimerBundle:Default:index.html.twig", 1);
+        $this->blocks = array(
+            'formulario' => array($this, 'block_formulario'),
+        );
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "base.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        $__internal_97dbc76ed75deae84bd52e182ff2f212ae9fae14a820cf1d47504c70c3068e26 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_97dbc76ed75deae84bd52e182ff2f212ae9fae14a820cf1d47504c70c3068e26->enter($__internal_97dbc76ed75deae84bd52e182ff2f212ae9fae14a820cf1d47504c70c3068e26_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PruebaPrimerBundle:Default:index.html.twig"));
+
+        $__internal_64ea6c1c1fe54fde5dafa2ffe0d0a2dd252cb80f982610ded4dcf30797ba39cf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_64ea6c1c1fe54fde5dafa2ffe0d0a2dd252cb80f982610ded4dcf30797ba39cf->enter($__internal_64ea6c1c1fe54fde5dafa2ffe0d0a2dd252cb80f982610ded4dcf30797ba39cf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PruebaPrimerBundle:Default:index.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_97dbc76ed75deae84bd52e182ff2f212ae9fae14a820cf1d47504c70c3068e26->leave($__internal_97dbc76ed75deae84bd52e182ff2f212ae9fae14a820cf1d47504c70c3068e26_prof);
+
+        
+        $__internal_64ea6c1c1fe54fde5dafa2ffe0d0a2dd252cb80f982610ded4dcf30797ba39cf->leave($__internal_64ea6c1c1fe54fde5dafa2ffe0d0a2dd252cb80f982610ded4dcf30797ba39cf_prof);
+
+    }
+
+    // line 3
+    public function block_formulario($context, array $blocks = array())
+    {
+        $__internal_fcc4fd0b0ce1e07c7304eac5eb5a977266fb25628c6110e73463ff0c191ce663 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_fcc4fd0b0ce1e07c7304eac5eb5a977266fb25628c6110e73463ff0c191ce663->enter($__internal_fcc4fd0b0ce1e07c7304eac5eb5a977266fb25628c6110e73463ff0c191ce663_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "formulario"));
+
+        $__internal_e74522b8ffc12fbb629e0f899217e3b93fd8e288fcde68f67f5545567f704f8e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e74522b8ffc12fbb629e0f899217e3b93fd8e288fcde68f67f5545567f704f8e->enter($__internal_e74522b8ffc12fbb629e0f899217e3b93fd8e288fcde68f67f5545567f704f8e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "formulario"));
+
+        // line 4
+        echo "\t<div class=\"container\">
+\t\t<div class=\"row\">
+\t\t\t<div class=\"col  s12 m12\">
+\t\t\t\t<div class=\"card\">
+\t\t\t\t\t<div class=\"card-content center\">
+\t\t\t\t\t\t<h3 class=\"orange-text text-darken-4\">Bienvenido!</h3>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"card-tabs \">
+\t\t\t\t\t\t<br>
+\t\t\t\t\t\t<h5 class=\"orange-text text-darken-3 center\">ACCIONES</h5>
+\t\t\t\t\t\t<br> <br> <br>
+\t\t\t\t\t\t<ul class=\"tabs tabs-fixed-width\">
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#retirar\" class=\"orange-text darken-4\" style=\"font-style: unset\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_upward</i>
+\t\t\t\t\t\t\t\t\tRetirar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#abonar\" class=\"orange-text darken-4\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#accion\" class=\"orange-text darken-4\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t</ul>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"card-content grey lighten-4\">
+\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t<div class=\"col s6\">
+\t\t\t\t\t\t\t\t<h4>No. Cuenta: </h4>
+\t\t\t\t\t\t\t\t<h4>\$ Saldo: </h4>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"row\" id=\"retirar\">
+\t\t\t\t\t\t\t<form class=\"col s12\">
+\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons prefix orange-text\">monetization_on</i>
+\t\t\t\t\t\t\t\t\t\t<input id=\"cantidad\" type=\"text\" class=\"validate\">
+\t\t\t\t\t\t\t\t\t\t<label for=\"cantidad\">Monto</label>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6 center\">
+\t\t\t\t\t\t\t\t\t\t<button class=\"btn waves-effect waves-light orange\" type=\"submit\" name=\"action\">
+\t\t\t\t\t\t\t\t\t\t\tRetirar
+\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons right\">arrow_upward</i>
+\t\t\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t</div>
+
+\t\t\t\t\t\t<div class=\"row\" id=\"abonar\">
+\t\t\t\t\t\t\t<form class=\"col s12\">
+\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons prefix orange-text\">monetization_on</i>
+\t\t\t\t\t\t\t\t\t\t<input id=\"cantidad\" type=\"text\" class=\"validate\">
+\t\t\t\t\t\t\t\t\t\t<label for=\"cantidad\">Monto</label>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6 center\">
+\t\t\t\t\t\t\t\t\t\t<button class=\"btn waves-effect waves-light orange\" type=\"submit\" name=\"action\">
+\t\t\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons right\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t</div>
+\t</div>";
+        
+        $__internal_e74522b8ffc12fbb629e0f899217e3b93fd8e288fcde68f67f5545567f704f8e->leave($__internal_e74522b8ffc12fbb629e0f899217e3b93fd8e288fcde68f67f5545567f704f8e_prof);
+
+        
+        $__internal_fcc4fd0b0ce1e07c7304eac5eb5a977266fb25628c6110e73463ff0c191ce663->leave($__internal_fcc4fd0b0ce1e07c7304eac5eb5a977266fb25628c6110e73463ff0c191ce663_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "PruebaPrimerBundle:Default:index.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  49 => 4,  40 => 3,  11 => 1,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("{% extends 'base.html.twig' %}
+
+{% block formulario %}
+\t<div class=\"container\">
+\t\t<div class=\"row\">
+\t\t\t<div class=\"col  s12 m12\">
+\t\t\t\t<div class=\"card\">
+\t\t\t\t\t<div class=\"card-content center\">
+\t\t\t\t\t\t<h3 class=\"orange-text text-darken-4\">Bienvenido!</h3>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"card-tabs \">
+\t\t\t\t\t\t<br>
+\t\t\t\t\t\t<h5 class=\"orange-text text-darken-3 center\">ACCIONES</h5>
+\t\t\t\t\t\t<br> <br> <br>
+\t\t\t\t\t\t<ul class=\"tabs tabs-fixed-width\">
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#retirar\" class=\"orange-text darken-4\" style=\"font-style: unset\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_upward</i>
+\t\t\t\t\t\t\t\t\tRetirar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#abonar\" class=\"orange-text darken-4\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class=\"tab\">
+\t\t\t\t\t\t\t\t<a href=\"#accion\" class=\"orange-text darken-4\">
+\t\t\t\t\t\t\t\t\t<i class=\"material-icons\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t</ul>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"card-content grey lighten-4\">
+\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t<div class=\"col s6\">
+\t\t\t\t\t\t\t\t<h4>No. Cuenta: </h4>
+\t\t\t\t\t\t\t\t<h4>\$ Saldo: </h4>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"row\" id=\"retirar\">
+\t\t\t\t\t\t\t<form class=\"col s12\">
+\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons prefix orange-text\">monetization_on</i>
+\t\t\t\t\t\t\t\t\t\t<input id=\"cantidad\" type=\"text\" class=\"validate\">
+\t\t\t\t\t\t\t\t\t\t<label for=\"cantidad\">Monto</label>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6 center\">
+\t\t\t\t\t\t\t\t\t\t<button class=\"btn waves-effect waves-light orange\" type=\"submit\" name=\"action\">
+\t\t\t\t\t\t\t\t\t\t\tRetirar
+\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons right\">arrow_upward</i>
+\t\t\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t</div>
+
+\t\t\t\t\t\t<div class=\"row\" id=\"abonar\">
+\t\t\t\t\t\t\t<form class=\"col s12\">
+\t\t\t\t\t\t\t\t<div class=\"row\">
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons prefix orange-text\">monetization_on</i>
+\t\t\t\t\t\t\t\t\t\t<input id=\"cantidad\" type=\"text\" class=\"validate\">
+\t\t\t\t\t\t\t\t\t\t<label for=\"cantidad\">Monto</label>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t<div class=\"input-field col s6 center\">
+\t\t\t\t\t\t\t\t\t\t<button class=\"btn waves-effect waves-light orange\" type=\"submit\" name=\"action\">
+\t\t\t\t\t\t\t\t\t\t\tAbonar
+\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons right\">arrow_downward</i>
+\t\t\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</form>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t</div>
+\t\t</div>
+\t</div>
+{% endblock %}", "PruebaPrimerBundle:Default:index.html.twig", "C:\\xampp\\htdocs\\symfony\\mi-primer-proyecto\\src\\Prueba\\PrimerBundle/Resources/views/Default/index.html.twig");
+    }
+}

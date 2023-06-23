@@ -1,3 +1,12 @@
 prueba_primer_homepage:
     path:     /primer
     defaults: { _controller:PruebaPrimerBundle:Default:index }
+
+insertar_movimientos:
+    path: /insert-mov
+    defaults: { _controller:PruebaPrimerBundle:Default:insertarMov }
+
+select_movimientos:
+    path: /select-mov
+    defaults: { _controller:PruebaPrimerBundle:Default:selectMov }
+
